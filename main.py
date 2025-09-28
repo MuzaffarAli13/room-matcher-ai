@@ -51,15 +51,23 @@ profile_Reader = Agent(
 )
 
 
+import streamlit as st
+import asyncio
 
-prompt = st.text_area("📝 Enter Prompt:")
+# App Heading and Description
+st.title("🏠 Room Matcher AI")
+st.subheader("Find the best roommates or available rooms based on your preferences and lifestyle.")
+st.write("Provide your requirements below and let the AI suggest the most suitable matches.")
+
+# Prompt input
+prompt = st.text_area("Enter your query or preferences here:")
 
 if "history" not in st.session_state:
     st.session_state.history = []
 
-
-if st.button("Chat"):
-    with st.spinner("Thinking..."):
+# Chat button
+if st.button("Get Roommate/Room Matches"):
+    with st.spinner("Fetching the best matches..."):
         st.session_state.history.append({"role": "user", "content": prompt})
 
         try:
@@ -78,5 +86,5 @@ if st.button("Chat"):
         prompt = ""
         st.session_state.history.append({"role": "assistant", "content": result.final_output})
 
-        st.success("Reply from Complaint Assistant:")
+        st.success("AI Suggestions:")
         st.write(result.final_output)

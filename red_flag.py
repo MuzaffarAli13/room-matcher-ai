@@ -13,9 +13,9 @@ def get_red_flags_only(
     sleep_schedule: str
 ):
     """
-    Sirf Red Flags detect karega between user input aur profiles.json.
-    - Har profile ke liye red_flags list return karega.
-    - Score ya sorting include nahi hogi.
+    Will only detect Red Flags between the user input and profiles.json.
+    - For each profile, it will return a list of red_flags.
+    - No scoring or sorting will be included.
     """
 
     try:

@@ -1,0 +1,91 @@
+[
+  {
+    "listing_id": "H-0001",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 14932,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "Security guard",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0002",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 16177,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "Furnished",
+      "Mess facility",
+      "Separate washroom",
+      "Attached bathroom",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0003",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 24030,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Security guard",
+      "Electricity backup",
+      "Attached bathroom",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0004",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 16815,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Attached bathroom",
+      "Laundry service",
+      "Security guard",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0005",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 25417,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Water supply",
+      "Attached bathroom",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0006",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 15961,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  }
+]
